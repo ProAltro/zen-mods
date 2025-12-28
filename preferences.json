@@ -33,6 +33,7 @@
     "property": "theme.sidebar_expand_on_hover.expanded_opacity",
     "label": "Opacity of expanded sidebar (0-1)",
     "type": "string",
-    "defaultValue": "1"
+    "defaultValue": "1",
+    "placeholder": "e.g. 0.8"
   }
 ]

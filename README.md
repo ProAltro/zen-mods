@@ -14,3 +14,4 @@ Addionally this mod collapses the buttons below the tabs to provide a smoother e
 - **Inverted Tab Direction**: Favicon on the right, title in the middle, close button on the left. Less moving parts when the sidebar is on the right. *(default: off)*
 - **Width of the expanded sidebar**: Here you can change the width of the expanded sidebar *(default: 300px)*
 - **Transition speed of the sidebar**: Speed of the collapsing/expanding animation *(default: 120ms)*
+- **Opacity of expanded sidebar**: Set the opacity of the expanded sidebar background, from 0 (transparent) to 1 (opaque) *(default: 1)*
