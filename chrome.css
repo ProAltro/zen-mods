@@ -100,8 +100,8 @@
         position: relative !important;
 
         /* 
-        I have no idea how to replicate the browser background, I don't know where the colors come from, the computed values in the inspector don't match anything on screen.
-        This is as close as I was able to get so far.
+        Background for the expanded sidebar.
+        Uses Zen's toolbar background color for consistency with the theme.
         */
         &::before {
             position: absolute;
@@ -111,10 +111,7 @@
             opacity: 0.0;
             transition: 60ms opacity ease-in calc(var(--theme-sidebar_expand_on_hover-transition_speed) - 60ms), width ease-in-out var(--theme-sidebar_expand_on_hover-transition_speed);
             z-index: -1;
-            background-image: var(--zen-main-browser-background) !important;
-            background-color: var(--lwt-accent-color) !important;
-            background-attachment: fixed !important;
-            background-size: 2000px !important;
+            background: var(--zen-colors-tertiary, var(--toolbar-bgcolor, var(--lwt-accent-color))) !important;
             backdrop-filter: blur(5px) !important;
             border-top-right-radius: 8px !important;
             border-bottom-right-radius: 8px !important;
