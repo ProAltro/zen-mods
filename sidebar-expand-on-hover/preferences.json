@@ -28,5 +28,11 @@
     "label": "Transition speed of the sidebar",
     "type": "string",
     "defaultValue": "120ms"
+  },
+  {
+    "property": "theme.sidebar_expand_on_hover.expanded_opacity",
+    "label": "Opacity of expanded sidebar (0-100%)",
+    "type": "string",
+    "defaultValue": "100%"
   }
 ]
