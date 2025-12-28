@@ -31,8 +31,8 @@
   },
   {
     "property": "theme.sidebar_expand_on_hover.expanded_opacity",
-    "label": "Opacity of expanded sidebar (0-100%)",
+    "label": "Opacity of expanded sidebar (0-1)",
     "type": "string",
-    "defaultValue": "100%"
+    "defaultValue": "1"
   }
 ]
